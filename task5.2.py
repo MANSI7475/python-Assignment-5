@@ -1,7 +1,6 @@
 num=list(range(1,11))
-print(num)
-first_five=num[:5]
-print("extract the first five element:",first_five)
-reverse_first_five=first_five[::-1]
-print("extract the reverse first five element:",reverse_first_five)
-
+print("orignal list :",num)
+extracted_elements=num[:5]
+print("extract the first five element:",extracted_elements)
+reversed_elements = extracted_elements[::-1]
+print("extract the reverse element:",reversed_elements)
